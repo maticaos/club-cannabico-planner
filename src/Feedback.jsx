@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useCallback } from 'react'
 import { supabase, supabaseEnabled } from './lib/supabase.js'
 
-const REPO = 'https://github.com/TU-USUARIO/club-cannabico-planner'
+const REPO = 'https://github.com/maticaos/club-cannabico-planner'
 
 const VERSIONS = ['general', 'v3', 'v2', 'v1']
 const CATS = [
